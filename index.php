@@ -1,4 +1,24 @@
 <?php
-    echo 'Hello World, my name is <strong>Bruno Barbosa</strong>';
-    echo 'Teste HCode22';
+
+$nome = "Bruno";
+$site = 'www.hcode.com.br';
+
+$ano = 1990;
+$salario = 5500.99;
+$bloqueado = false;
+///////////////////////////////////
+$frutas = array("abacaxi", "laranja", "manga");
+//echo $frutas[2];
+
+$nascimento = new DateTime();
+//var_dump($nascimento);
+////////////////////////////////////////
+
+$arquivo = fopen("exemplo-01.php", "r");
+//var_dump($arquivo);
+
+$nulo = NULL;
+$vazio = "";
+
+
 ?>
